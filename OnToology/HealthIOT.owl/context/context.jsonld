@@ -135,6 +135,9 @@
       "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#cared_by",
       "@type" : "@id"
     },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
     "DoctorsPrescription" : {
       "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#DoctorsPrescription"
     },

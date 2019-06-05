@@ -4,6 +4,9 @@
 }, {
   "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actor",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Actor is  subclass of health care."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthCare"
   } ]
@@ -88,6 +91,9 @@
 }, {
   "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Event",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Event is a subclass of Health care."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthCare"
   } ]
@@ -112,6 +118,9 @@
 }, {
   "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthCare",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "A class for health care objects."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
@@ -190,6 +199,9 @@
 }, {
   "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Organization",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Organization is a subclass of health care."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthCare"
   } ]
@@ -367,5 +379,10 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Doctor"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#Thing",
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Health Care Ontology"
   } ]
 } ]
