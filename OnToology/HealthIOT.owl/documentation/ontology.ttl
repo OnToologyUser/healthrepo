@@ -1,0 +1,318 @@
+@prefix : <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53> .
+
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#cared_by
+:cared_by rdf:type owl:ObjectProperty ;
+          owl:inverseOf :cares_for ;
+          rdfs:domain :Patient ;
+          rdfs:range :Nurse .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#cares_for
+:cares_for rdf:type owl:ObjectProperty ;
+           rdfs:domain :Nurse ;
+           rdfs:range :Patient .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#has
+:has rdf:type owl:ObjectProperty ;
+     rdfs:domain :Patient ;
+     rdfs:range :Sympotoms .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#looks_for
+:looks_for rdf:type owl:ObjectProperty ;
+           owl:inverseOf :treated_by ;
+           rdfs:domain :Doctor ;
+           rdfs:range :Patient .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#operates
+:operates rdf:type owl:ObjectProperty ;
+          owl:inverseOf :operates_by ;
+          rdfs:domain :Surgeon ;
+          rdfs:range :Patient .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#operates_by
+:operates_by rdf:type owl:ObjectProperty ;
+             rdfs:domain :Patient ;
+             rdfs:range :Surgeon .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#transfer_data_to
+:transfer_data_to rdf:type owl:ObjectProperty ;
+                  rdfs:domain :HealthDevices ;
+                  rdfs:range :Doctor ,
+                             :Nurse ,
+                             :Patient .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#treated_by
+:treated_by rdf:type owl:ObjectProperty ;
+            rdfs:domain :Patient ;
+            rdfs:range :Doctor .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actor
+:Actor rdf:type owl:Class ;
+       rdfs:subClassOf :HealthCare ;
+       rdfs:isDefinedBy "Actor is  subclass of health care." .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actuators
+:Actuators rdf:type owl:Class ;
+           rdfs:subClassOf :HealthDevices .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Administrator
+:Administrator rdf:type owl:Class ;
+               rdfs:subClassOf :Actor .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#BPSensores
+:BPSensores rdf:type owl:Class ;
+            rdfs:subClassOf :Sensores .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Body_Temp
+:Body_Temp rdf:type owl:Class ;
+           rdfs:subClassOf :Sympotoms .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Cardiologist
+:Cardiologist rdf:type owl:Class ;
+              rdfs:subClassOf :Physician .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#ChestPain
+:ChestPain rdf:type owl:Class ;
+           rdfs:subClassOf :Sympotoms .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#ClinicalPharmacist
+:ClinicalPharmacist rdf:type owl:Class ;
+                    rdfs:subClassOf :Pharmacist .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#CommunityPharmacist
+:CommunityPharmacist rdf:type owl:Class ;
+                     rdfs:subClassOf :Pharmacist .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Consultation
+:Consultation rdf:type owl:Class ;
+              rdfs:subClassOf :Event .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Cough
+:Cough rdf:type owl:Class ;
+       rdfs:subClassOf :Sympotoms .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Diagnosis
+:Diagnosis rdf:type owl:Class ;
+           rdfs:subClassOf :Event .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Doctor
+:Doctor rdf:type owl:Class ;
+        rdfs:subClassOf :Actor .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#DoctorsPrescription
+:DoctorsPrescription rdf:type owl:Class ;
+                     rdfs:subClassOf :Record .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Event
+:Event rdf:type owl:Class ;
+       rdfs:subClassOf :HealthCare ;
+       rdfs:isDefinedBy "Event is a subclass of Health care." .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Fever
+:Fever rdf:type owl:Class ;
+       rdfs:subClassOf :Sympotoms .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#GeneralPractice
+:GeneralPractice rdf:type owl:Class ;
+                 rdfs:subClassOf :Organization .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Headache
+:Headache rdf:type owl:Class ;
+          rdfs:subClassOf :Sympotoms .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthCare
+:HealthCare rdf:type owl:Class ;
+            rdfs:subClassOf owl:Thing ;
+            rdfs:isDefinedBy "A class for health care objects." .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthDevices
+:HealthDevices rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthProvider
+:HealthProvider rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HeartBeat
+:HeartBeat rdf:type owl:Class ;
+           rdfs:subClassOf :Sympotoms .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HeartbeatSensors
+:HeartbeatSensors rdf:type owl:Class ;
+                  rdfs:subClassOf :Sensores .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Hospital
+:Hospital rdf:type owl:Class ;
+          rdfs:subClassOf :Organization .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Insurance
+:Insurance rdf:type owl:Class ;
+           rdfs:subClassOf :Organization .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#InsurancePolicy
+:InsurancePolicy rdf:type owl:Class ;
+                 rdfs:subClassOf :Record .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Manager
+:Manager rdf:type owl:Class ;
+         rdfs:subClassOf :Actor .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#MedicalRecord
+:MedicalRecord rdf:type owl:Class ;
+               rdfs:subClassOf :Record .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Medical_Oncologist
+:Medical_Oncologist rdf:type owl:Class ;
+                    rdfs:subClassOf :Oncologist .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Nurse
+:Nurse rdf:type owl:Class ;
+       rdfs:subClassOf :Actor .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Oncologist
+:Oncologist rdf:type owl:Class ;
+            rdfs:subClassOf :Physician .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Oncology_Pharmacist
+:Oncology_Pharmacist rdf:type owl:Class ;
+                     rdfs:subClassOf :ClinicalPharmacist .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Organization
+:Organization rdf:type owl:Class ;
+              rdfs:subClassOf :HealthCare ;
+              rdfs:isDefinedBy "Organization is a subclass of health care." .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Patient
+:Patient rdf:type owl:Class ;
+         rdfs:subClassOf :Actor .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Pharmacist
+:Pharmacist rdf:type owl:Class ;
+            rdfs:subClassOf :HealthProvider .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Phychiatric_Pharmacist
+:Phychiatric_Pharmacist rdf:type owl:Class ;
+                        rdfs:subClassOf :ClinicalPharmacist .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Physician
+:Physician rdf:type owl:Class ;
+           rdfs:subClassOf :HealthProvider .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Pulmonologist
+:Pulmonologist rdf:type owl:Class ;
+               rdfs:subClassOf :Physician .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#RFID
+:RFID rdf:type owl:Class ;
+      rdfs:subClassOf :HealthDevices .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Radiation_Oncologist
+:Radiation_Oncologist rdf:type owl:Class ;
+                      rdfs:subClassOf :Oncologist .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Record
+:Record rdf:type owl:Class ;
+        rdfs:subClassOf :HealthCare .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Referral
+:Referral rdf:type owl:Class ;
+          rdfs:subClassOf :Event .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sensores
+:Sensores rdf:type owl:Class ;
+          rdfs:subClassOf :HealthDevices .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Surgeon
+:Surgeon rdf:type owl:Class ;
+         rdfs:subClassOf :Actor .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Surgery
+:Surgery rdf:type owl:Class ;
+         rdfs:subClassOf :Event .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sympotoms
+:Sympotoms rdf:type owl:Class ;
+           rdfs:subClassOf :Event .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#TemperatureSensors
+:TemperatureSensors rdf:type owl:Class ;
+                    rdfs:subClassOf :Sensores .
+
+
+###  http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Treatment
+:Treatment rdf:type owl:Class ;
+           rdfs:subClassOf :Event .
+
+
+###  http://www.w3.org/2002/07/owl#Thing
+owl:Thing rdfs:isDefinedBy "Health Care Ontology" .
+
+
+###  Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

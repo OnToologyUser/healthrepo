@@ -1,0 +1,186 @@
+{
+  "@context" : {
+    "Pharmacist" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Pharmacist"
+    },
+    "Diagnosis" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Diagnosis"
+    },
+    "Oncologist" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Oncologist"
+    },
+    "InsurancePolicy" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#InsurancePolicy"
+    },
+    "HeartBeat" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HeartBeat"
+    },
+    "Pulmonologist" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Pulmonologist"
+    },
+    "operates" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#operates",
+      "@type" : "@id"
+    },
+    "Organization" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Organization"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "HealthDevices" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthDevices"
+    },
+    "TemperatureSensors" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#TemperatureSensors"
+    },
+    "Administrator" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Administrator"
+    },
+    "Medical_Oncologist" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Medical_Oncologist"
+    },
+    "Phychiatric_Pharmacist" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Phychiatric_Pharmacist"
+    },
+    "Doctor" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Doctor"
+    },
+    "Cardiologist" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Cardiologist"
+    },
+    "looks_for" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#looks_for",
+      "@type" : "@id"
+    },
+    "CommunityPharmacist" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#CommunityPharmacist"
+    },
+    "cares_for" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#cares_for",
+      "@type" : "@id"
+    },
+    "transfer_data_to" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#transfer_data_to",
+      "@type" : "@id"
+    },
+    "Event" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Event"
+    },
+    "Sympotoms" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sympotoms"
+    },
+    "Patient" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Patient"
+    },
+    "Treatment" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Treatment"
+    },
+    "Actor" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actor"
+    },
+    "Physician" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Physician"
+    },
+    "BPSensores" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#BPSensores"
+    },
+    "Referral" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Referral"
+    },
+    "HealthProvider" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthProvider"
+    },
+    "RFID" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#RFID"
+    },
+    "HealthCare" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthCare"
+    },
+    "Sensores" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sensores"
+    },
+    "Insurance" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Insurance"
+    },
+    "Surgeon" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Surgeon"
+    },
+    "Fever" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Fever"
+    },
+    "Consultation" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Consultation"
+    },
+    "Oncology_Pharmacist" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Oncology_Pharmacist"
+    },
+    "ClinicalPharmacist" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#ClinicalPharmacist"
+    },
+    "GeneralPractice" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#GeneralPractice"
+    },
+    "Cough" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Cough"
+    },
+    "Radiation_Oncologist" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Radiation_Oncologist"
+    },
+    "treated_by" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#treated_by",
+      "@type" : "@id"
+    },
+    "cared_by" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#cared_by",
+      "@type" : "@id"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "DoctorsPrescription" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#DoctorsPrescription"
+    },
+    "Record" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Record"
+    },
+    "Hospital" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Hospital"
+    },
+    "Surgery" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Surgery"
+    },
+    "operates_by" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#operates_by",
+      "@type" : "@id"
+    },
+    "Body_Temp" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Body_Temp"
+    },
+    "has" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#has",
+      "@type" : "@id"
+    },
+    "MedicalRecord" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#MedicalRecord"
+    },
+    "Manager" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Manager"
+    },
+    "Headache" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Headache"
+    },
+    "Nurse" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Nurse"
+    },
+    "HeartbeatSensors" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HeartbeatSensors"
+    },
+    "Actuators" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actuators"
+    },
+    "ChestPain" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#ChestPain"
+    }
+  }
+}

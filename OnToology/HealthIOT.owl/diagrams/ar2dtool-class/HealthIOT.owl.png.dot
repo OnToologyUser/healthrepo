@@ -1,0 +1,14 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:HealthDevices" "base:Nurse" "base:Sympotoms" "base:Doctor" "base:Patient" "base:Surgeon" ; /*classes style*/
+	"base:HealthDevices" -> "base:Doctor" [ label = "base:transfer_data_to" ];
+	"base:Surgeon" -> "base:Patient" [ label = "base:operates" ];
+	"base:Patient" -> "base:Surgeon" [ label = "base:operates_by" ];
+	"base:Patient" -> "base:Sympotoms" [ label = "base:has" ];
+	"base:Nurse" -> "base:Patient" [ label = "base:cares_for" ];
+	"base:Patient" -> "base:Nurse" [ label = "base:cared_by" ];
+	"base:Patient" -> "base:Doctor" [ label = "base:treated_by" ];
+	"base:Doctor" -> "base:Patient" [ label = "base:looks_for" ];
+
+}

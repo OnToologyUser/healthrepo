@@ -1,0 +1,262 @@
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#cared_by
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#cared_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#cared_by> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#cares_for> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#cared_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Patient> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#cared_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Nurse> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#cares_for
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#cares_for> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#cares_for> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Nurse> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#cares_for> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Patient> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#has
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#has> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#has> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Patient> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#has> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sympotoms> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#looks_for
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#looks_for> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#looks_for> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#treated_by> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#looks_for> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Doctor> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#looks_for> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Patient> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#operates
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#operates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#operates> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#operates_by> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#operates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Surgeon> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#operates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Patient> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#operates_by
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#operates_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#operates_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Patient> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#operates_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Surgeon> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#transfer_data_to
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#transfer_data_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#transfer_data_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthDevices> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#transfer_data_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Doctor> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#transfer_data_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Nurse> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#transfer_data_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Patient> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#treated_by
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#treated_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#treated_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Patient> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#treated_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Doctor> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actor
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthCare> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Actor is  subclass of health care." .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actuators
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actuators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actuators> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthDevices> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Administrator
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Administrator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Administrator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actor> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#BPSensores
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#BPSensores> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#BPSensores> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sensores> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Body_Temp
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Body_Temp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Body_Temp> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sympotoms> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Cardiologist
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Cardiologist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Cardiologist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Physician> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#ChestPain
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#ChestPain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#ChestPain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sympotoms> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#ClinicalPharmacist
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#ClinicalPharmacist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#ClinicalPharmacist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Pharmacist> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#CommunityPharmacist
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#CommunityPharmacist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#CommunityPharmacist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Pharmacist> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Consultation
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Consultation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Consultation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Event> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Cough
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Cough> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Cough> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sympotoms> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Diagnosis
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Diagnosis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Diagnosis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Event> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Doctor
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Doctor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Doctor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actor> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#DoctorsPrescription
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#DoctorsPrescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#DoctorsPrescription> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Record> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Event
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthCare> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Event> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Event is a subclass of Health care." .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Fever
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Fever> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Fever> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sympotoms> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#GeneralPractice
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#GeneralPractice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#GeneralPractice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Organization> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Headache
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Headache> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Headache> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sympotoms> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthCare
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthCare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthCare> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthCare> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A class for health care objects." .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthDevices
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthDevices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthProvider
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthProvider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HeartBeat
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HeartBeat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HeartBeat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sympotoms> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HeartbeatSensors
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HeartbeatSensors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HeartbeatSensors> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sensores> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Hospital
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Hospital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Hospital> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Organization> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Insurance
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Insurance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Insurance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Organization> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#InsurancePolicy
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#InsurancePolicy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#InsurancePolicy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Record> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Manager
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Manager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Manager> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actor> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#MedicalRecord
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#MedicalRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#MedicalRecord> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Record> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Medical_Oncologist
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Medical_Oncologist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Medical_Oncologist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Oncologist> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Nurse
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Nurse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Nurse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actor> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Oncologist
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Oncologist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Oncologist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Physician> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Oncology_Pharmacist
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Oncology_Pharmacist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Oncology_Pharmacist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#ClinicalPharmacist> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Organization
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Organization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthCare> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Organization> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Organization is a subclass of health care." .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Patient
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Patient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Patient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actor> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Pharmacist
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Pharmacist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Pharmacist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthProvider> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Phychiatric_Pharmacist
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Phychiatric_Pharmacist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Phychiatric_Pharmacist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#ClinicalPharmacist> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Physician
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Physician> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Physician> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthProvider> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Pulmonologist
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Pulmonologist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Pulmonologist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Physician> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#RFID
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#RFID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#RFID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthDevices> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Radiation_Oncologist
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Radiation_Oncologist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Radiation_Oncologist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Oncologist> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Record
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Record> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Record> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthCare> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Referral
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Referral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Referral> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Event> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sensores
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sensores> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sensores> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthDevices> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Surgeon
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Surgeon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Surgeon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actor> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Surgery
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Surgery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Surgery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Event> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sympotoms
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sympotoms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sympotoms> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Event> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#TemperatureSensors
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#TemperatureSensors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#TemperatureSensors> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sensores> .
+# 
+# http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Treatment
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Treatment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Treatment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Event> .
+# 
+# http://www.w3.org/2002/07/owl#Thing
+<http://www.w3.org/2002/07/owl#Thing> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Health Care Ontology" .
+# 
+# Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

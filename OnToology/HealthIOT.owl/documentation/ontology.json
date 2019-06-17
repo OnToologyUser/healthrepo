@@ -1,0 +1,388 @@
+[ {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Actor is  subclass of health care."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthCare"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actuators",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthDevices"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Administrator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#BPSensores",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sensores"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Body_Temp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sympotoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Cardiologist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Physician"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#ChestPain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sympotoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#ClinicalPharmacist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Pharmacist"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#CommunityPharmacist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Pharmacist"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Consultation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Cough",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sympotoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Diagnosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Doctor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#DoctorsPrescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Record"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Event is a subclass of Health care."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthCare"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Fever",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sympotoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#GeneralPractice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Organization"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Headache",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sympotoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthCare",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "A class for health care objects."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthDevices",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthProvider",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HeartBeat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sympotoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HeartbeatSensors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sensores"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Hospital",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Organization"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Insurance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Organization"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#InsurancePolicy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Record"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Manager",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#MedicalRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Record"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Medical_Oncologist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Oncologist"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Nurse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Oncologist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Physician"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Oncology_Pharmacist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#ClinicalPharmacist"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Organization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Organization is a subclass of health care."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthCare"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Patient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Pharmacist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthProvider"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Phychiatric_Pharmacist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#ClinicalPharmacist"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Physician",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthProvider"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Pulmonologist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Physician"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#RFID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthDevices"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Radiation_Oncologist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Oncologist"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Record",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthCare"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Referral",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sensores",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthDevices"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Surgeon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Surgery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sympotoms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#TemperatureSensors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sensores"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Treatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#cared_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Nurse"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#cares_for"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#cares_for",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Nurse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Patient"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#has",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Sympotoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#looks_for",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Doctor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Patient"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#treated_by"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#operates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Surgeon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Patient"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#operates_by"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#operates_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Surgeon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#transfer_data_to",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#HealthDevices"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Doctor"
+  }, {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Nurse"
+  }, {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Patient"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#treated_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2018/9/untitled-ontology-53#Doctor"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#Thing",
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Health Care Ontology"
+  } ]
+} ]

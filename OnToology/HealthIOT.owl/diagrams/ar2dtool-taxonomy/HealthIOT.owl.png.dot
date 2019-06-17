@@ -1,0 +1,52 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:Pulmonologist" "base:Radiation_Oncologist" "base:ClinicalPharmacist" "base:Event" "base:HealthProvider" "base:Treatment" "base:Surgery" "base:Cough" "base:Headache" "base:BPSensores" "base:HealthCare" "base:Manager" "base:CommunityPharmacist" "base:Hospital" "base:Phychiatric_Pharmacist" "base:Diagnosis" "base:TemperatureSensors" "base:Oncology_Pharmacist" "base:Insurance" "base:ChestPain" "base:HealthDevices" "base:Administrator" "base:Cardiologist" "base:GeneralPractice" "base:HeartBeat" "base:Pharmacist" "base:Actor" "base:MedicalRecord" "base:Nurse" "base:Organization" "base:HeartbeatSensors" "base:Sensores" "base:Oncologist" "base:Medical_Oncologist" "base:Sympotoms" "base:Consultation" "base:Body_Temp" "base:DoctorsPrescription" "base:InsurancePolicy" "base:Doctor" "base:RFID" "base:Fever" "base:Actuators" "base:Record" "base:Patient" "base:Referral" "base:Physician" "base:Surgeon" ; /*classes style*/
+	"base:Consultation" -> "base:Event" [ label = "rdfs:subClassOf" ];
+	"base:Fever" -> "base:Sympotoms" [ label = "rdfs:subClassOf" ];
+	"base:Diagnosis" -> "base:Event" [ label = "rdfs:subClassOf" ];
+	"base:ChestPain" -> "base:Sympotoms" [ label = "rdfs:subClassOf" ];
+	"base:Hospital" -> "base:Organization" [ label = "rdfs:subClassOf" ];
+	"base:Cardiologist" -> "base:Physician" [ label = "rdfs:subClassOf" ];
+	"base:Cough" -> "base:Sympotoms" [ label = "rdfs:subClassOf" ];
+	"base:ClinicalPharmacist" -> "base:Pharmacist" [ label = "rdfs:subClassOf" ];
+	"base:Physician" -> "base:HealthProvider" [ label = "rdfs:subClassOf" ];
+	"base:Referral" -> "base:Event" [ label = "rdfs:subClassOf" ];
+	"base:DoctorsPrescription" -> "base:Record" [ label = "rdfs:subClassOf" ];
+	"base:Manager" -> "base:Actor" [ label = "rdfs:subClassOf" ];
+	"base:Surgery" -> "base:Event" [ label = "rdfs:subClassOf" ];
+	"base:Patient" -> "base:Actor" [ label = "rdfs:subClassOf" ];
+	"base:GeneralPractice" -> "base:Organization" [ label = "rdfs:subClassOf" ];
+	"base:RFID" -> "base:HealthDevices" [ label = "rdfs:subClassOf" ];
+	"base:Pulmonologist" -> "base:Physician" [ label = "rdfs:subClassOf" ];
+	"base:Actuators" -> "base:HealthDevices" [ label = "rdfs:subClassOf" ];
+	"base:CommunityPharmacist" -> "base:Pharmacist" [ label = "rdfs:subClassOf" ];
+	"base:Sensores" -> "base:HealthDevices" [ label = "rdfs:subClassOf" ];
+	"base:Pharmacist" -> "base:HealthProvider" [ label = "rdfs:subClassOf" ];
+	"base:MedicalRecord" -> "base:Record" [ label = "rdfs:subClassOf" ];
+	"base:Surgeon" -> "base:Actor" [ label = "rdfs:subClassOf" ];
+	"base:Doctor" -> "base:Actor" [ label = "rdfs:subClassOf" ];
+	"base:Body_Temp" -> "base:Sympotoms" [ label = "rdfs:subClassOf" ];
+	"base:Sympotoms" -> "base:Event" [ label = "rdfs:subClassOf" ];
+	"base:HeartbeatSensors" -> "base:Sensores" [ label = "rdfs:subClassOf" ];
+	"base:Event" -> "base:HealthCare" [ label = "rdfs:subClassOf" ];
+	"base:Radiation_Oncologist" -> "base:Oncologist" [ label = "rdfs:subClassOf" ];
+	"base:Oncologist" -> "base:Physician" [ label = "rdfs:subClassOf" ];
+	"base:Organization" -> "base:HealthCare" [ label = "rdfs:subClassOf" ];
+	"base:Headache" -> "base:Sympotoms" [ label = "rdfs:subClassOf" ];
+	"base:Treatment" -> "base:Event" [ label = "rdfs:subClassOf" ];
+	"base:Oncology_Pharmacist" -> "base:ClinicalPharmacist" [ label = "rdfs:subClassOf" ];
+	"base:Insurance" -> "base:Organization" [ label = "rdfs:subClassOf" ];
+	"base:BPSensores" -> "base:Sensores" [ label = "rdfs:subClassOf" ];
+	"base:InsurancePolicy" -> "base:Record" [ label = "rdfs:subClassOf" ];
+	"base:HeartBeat" -> "base:Sympotoms" [ label = "rdfs:subClassOf" ];
+	"base:Nurse" -> "base:Actor" [ label = "rdfs:subClassOf" ];
+	"base:Phychiatric_Pharmacist" -> "base:ClinicalPharmacist" [ label = "rdfs:subClassOf" ];
+	"base:TemperatureSensors" -> "base:Sensores" [ label = "rdfs:subClassOf" ];
+	"base:Record" -> "base:HealthCare" [ label = "rdfs:subClassOf" ];
+	"base:Administrator" -> "base:Actor" [ label = "rdfs:subClassOf" ];
+	"base:HealthCare" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"base:Actor" -> "base:HealthCare" [ label = "rdfs:subClassOf" ];
+	"base:Medical_Oncologist" -> "base:Oncologist" [ label = "rdfs:subClassOf" ];
+
+}
